@@ -9,13 +9,14 @@ A bash script that helps you easily create and delete homestead sites on Unix ba
 $ mkdir ~/workspace
 ```
 Then move your `Homestead` directory (The one you downloaded from [Homestead's Github Release Page](https://github.com/laravel/homestead/releases)) into the `~/workspace` folder you just created.
+
 2. Create a folder at `~/workspace/www/homestead`:
 ```
 $ mkdir -R ~/workspace/www/homestead
 ```
 _This is where all your homestead sites will reside in your host machine._
 
-3. SSH into you homestead vagrant box and create a `~/projects` folder:
+3. SSH into your homestead vagrant box and create a `~/projects` folder:
 ```
 $ cd ~/workspace/Homestead
 $ vagrant up
